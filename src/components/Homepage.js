@@ -10,8 +10,9 @@ const Homepage = () => {
     <div className="homepage">
       <div className="top-container">
         <div className="text">
-          <span className="fsd">// SOFTWARE ENGINEER</span><br/>
-          <span className="tagline">multidisciplinary full-stack web developer & artist with a backgroud in management</span>
+          <span className="fsd">//SOFTWARE ENGINEER</span><br/><br/>
+          <span className="tagline">big picture visionary thinker driven by <b>what is possible</b></span><br/>
+          {/* <span className="sub-tagline">i ♥ to code</span> */}
         </div>
        <img className="self" src={process.env.PUBLIC_URL+"/photo.jpg"} alt="Genevieve"/>
       </div>

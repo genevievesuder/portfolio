@@ -7,7 +7,8 @@ const Links = () => {
     <Link className="link">GITHUB</Link>
     <Link className="link">LINKEDIN</Link>
     <Link className="link">MEDIUM</Link>
-    <Link className="link">EMAIL</Link><br/>
+    <Link className="link">EMAIL</Link>
+    <Link className="link">MEET WITH GENEVIEVE</Link><br/>
     <span className='copyright'>Created with React © 2023 Copyright: Genevieve Suder</span>
 </div>
   )
