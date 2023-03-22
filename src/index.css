@@ -139,3 +139,11 @@ body {
   margin: 20px;
   max-height: 100%;
 }
+
+.resume-container{
+  min-height: 100vh;
+}
+
+.resume{
+  min-height: 100vh;
+}
