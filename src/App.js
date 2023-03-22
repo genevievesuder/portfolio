@@ -4,18 +4,24 @@ import NotFound from './components/NotFound';
 import Nav from './components/Nav';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
+import Links from './components/Links';
+import About from './components/About';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Nav/>
+    <div className="App">
       <Routes>
         <Route path="/" element={<Homepage/>} />
         <Route path="*" element={<NotFound/>} />
+        <Route path="/about" element={<About/>} />
         <Route path="/resume" element={<Resume/>} />
         <Route path="/projects" element={<Projects/>} />
       </Routes>
     </div>
+      <Links />
+      </div>
   );
 }
 

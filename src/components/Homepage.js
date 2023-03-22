@@ -1,4 +1,3 @@
-// import Cards from "./Cards"
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -9,16 +8,12 @@ import { Button } from '@mui/material';
 const Homepage = () => {
   return (
     <div className="homepage">
-      <div className="left-container">
-        <div className="welcome-box">
-            <p className="hi">Hi 👋, I'm</p>
-            <img className="name" src={process.env.PUBLIC_URL+"/genevieve.png"} alt="Genevieve"/><br/>
-            <span className="fsd">FULL-STACK DEVELOPER</span>
-            <p>quick about me section...</p>
+      <div className="top-container">
+        <div className="text">
+          <span className="fsd">// SOFTWARE ENGINEER</span><br/>
+          <span className="tagline">multidisciplinary full-stack web developer & artist with a backgroud in management</span>
         </div>
-      </div>
-      <div className="right-container">
-           HIII 
+       <img className="self" src={process.env.PUBLIC_URL+"/photo.jpg"} alt="Genevieve"/>
       </div>
       <div className='bottom-container'>
         <Card className='card' sx={{ maxWidth: 345 }}>
@@ -77,6 +72,7 @@ const Homepage = () => {
           </CardContent>
           <Button size="small" color="primary">Visit</Button>
         </Card>
+
       </div>
     </div>
   )
