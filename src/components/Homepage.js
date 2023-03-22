@@ -12,7 +12,7 @@ const Homepage = () => {
         <div className="text">
           <span className="fsd">//SOFTWARE ENGINEER</span><br/><br/>
           <span className="tagline">big picture visionary thinker driven by <b>what is possible</b></span><br/>
-          {/* <span className="sub-tagline">i ♥ to code</span> */}
+          <p className="sub-tagline">alaskan ❄ // artist 🖌 // creative at ♥ // loves to code ⌨</p>
         </div>
        <img className="self" src={process.env.PUBLIC_URL+"/photo.jpg"} alt="Genevieve"/>
       </div>
