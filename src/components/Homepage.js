@@ -11,10 +11,10 @@ const Homepage = () => {
       <div className="top-container">
         <div className="text">
           <span className="fsd">//SOFTWARE ENGINEER</span><br/><br/>
-          <span className="tagline">big picture visionary thinker driven by <b>what is possible</b></span><br/>
+          <span className="tagline">big picture visionary thinker with a passion for <b>innovative solutions</b></span><br/>
           <p className="sub-tagline">alaskan ❄ // artist 🖌 // creative at ♥ // loves to code ⌨</p>
         </div>
-       <img className="self" src={process.env.PUBLIC_URL+"/photo.jpg"} alt="Genevieve"/>
+       <img className="self" src={process.env.PUBLIC_URL+"/gg.jpg"} alt="Genevieve"/>
       </div>
       <div className='bottom-container'>
         <Card className='card' sx={{ maxWidth: 345 }}>

@@ -11,7 +11,7 @@ const navigate = useNavigate()
         <Link className="nav-link" to="/projects">projects</Link>
         <Link className="nav-link" to="/about">about</Link>
         <Link className="nav-link" to="/resume">resume</Link>
-        <Link className="nav-link">contact</Link>
+        <Link className="nav-link" to="/contact">contact</Link>
     </div>
   )
 }
