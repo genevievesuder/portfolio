@@ -86,6 +86,7 @@ body {
 
 .top-container{
   margin-top: 50px;
+  padding-bottom: 100px;
 }
 
 .self{
@@ -122,13 +123,31 @@ body {
 }
 
 .sub-tagline{
-  padding-top: 5px;
+  padding-top: 35px;
   font-size: 18px;
+}
+
+.spotlight{
+  top: 110%;
+  left: 23%;
+  transform: translate(-50%, -50%) rotate(-10deg);
+  position: absolute;
+  z-index: 3000;
+  max-width: 250px;
+}
+
+.arrow{
+  top: 130%;
+  left: 20%;
+  transform: translate(-50%, -50%) rotate(270deg) scaleX(-1);
+  position: absolute;
+  z-index: 3000;
+  max-width: 150px;
 }
 
 
 .bottom-container{
-  margin-top: 60vh;
+  margin-top: 70vh;
   padding: 10px;
   justify-content: center;
   flex-direction: row;
@@ -173,18 +192,72 @@ body {
 }
 
 .gg2{
-  width: 300px;
-  border: 30px solid white;
-  border-bottom: 105px solid white;
-  transform: rotate(6deg);
+  width: 250px;
+  border: 20px solid white;
+  border-bottom: 85px solid white;
+  transform: rotate(-3deg);
+  margin-right: 20px;
+  box-shadow: 10px  6px 3px -2px rgba(44, 44, 44, 0.548);
 }
 
 .gg3{
-  width: 300px;
-  border: 30px solid white;
-  border-bottom: 105px solid white;
-  transform: rotate(6deg);
+  width: 250px;
+  border: 20px solid white;
+  border-bottom: 85px solid white;
+  transform: rotate(4deg);
+  margin-right: 15px;
+  box-shadow: -10px 6px 3px -2px rgba(44, 44, 44, 0.548);
+
 }
+
+.gg4{
+  width: 250px;
+  border: 20px solid white;
+  border-bottom: 85px solid white;
+  transform: rotate(2deg);
+  box-shadow: -10px  6px 3px -2px rgba(44, 44, 44, 0.5);
+}
+
+.gg5{
+  margin-top: 20px;
+  width: 250px;
+  border: 20px solid white;
+  border-bottom: 85px solid white;
+  transform: rotate(2deg);
+  box-shadow: -10px  6px 3px -2px rgba(44, 44, 44, 0.5);
+}
+
+
+.gg6{
+  margin-left: 50px;
+  width: 450px;
+  height: 320px;
+  border: 20px solid white;
+  border-bottom: 85px solid white;
+  transform: rotate(-2deg);
+  box-shadow: -10px  6px 3px -2px rgba(44, 44, 44, 0.5);
+}
+
+.gg7{
+  margin-top: 20px;
+  width: 450px;
+  height: 365px;
+  border: 20px solid white;
+  border-bottom: 85px solid white;
+  transform: rotate(3deg);
+  box-shadow: -10px  6px 3px -2px rgba(44, 44, 44, 0.5);
+}
+
+.gg8{
+  margin-left: 30px;
+  width: 250px;
+  border: 20px solid white;
+  border-bottom: 85px solid white;
+  transform: rotate(-2deg);
+  box-shadow: -10px  6px 3px -2px rgba(44, 44, 44, 0.5);
+}
+
+
 
 .hello{
   top: 44%;
@@ -193,14 +266,27 @@ body {
   position: absolute;
   z-index: 3000;
   max-width: 100%;
-  text-shadow: 2px 2px #ff0000;
 }
 
-.bio-p{
+.imgg{
+  top: 123%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 3000;
+  max-width: 100%;
+}
+
+.bio-div{
   margin: auto;
+  margin-top: 70px;
   padding: 15px;
   text-align: center;
   width: 50%;
+  background-color: white;
+  margin-bottom: 50px;
+  width: 70%;
+  height: 175px;
 }
 
 .about-img1{
@@ -229,8 +315,8 @@ body {
 
 .contact{
   min-height:100vh;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .connect{
@@ -244,11 +330,14 @@ body {
 }
 
 .connect-links{
-  top: 55%;
+  margin-top: 10vh;
+  text-align: center;
+  min-width: 100%;
+  /* top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
-  z-index: 1000;
+  z-index: 1000; */
   font-family: 'Work Sans', sans-serif;
   font-size: 20px;
 }
@@ -279,8 +368,21 @@ body {
   color: white;
 }
 
+.connect-link3{
+  padding: 20px;
+  margin: 30px;
+  background-color: rgb(252, 229, 207);
+  border-radius: 6px;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.connect-link3:hover {
+  box-shadow: inset 145px 0 0 0 #464646;
+  color: white;
+}
+
 .design-con{
-  margin-top: 50vh;
+  margin-top: 20vh;
   width: 100%;
   /* transform: rotate(180deg) */
 }

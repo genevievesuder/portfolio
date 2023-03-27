@@ -16,6 +16,8 @@ const Homepage = () => {
         </div>
        <img className="self" src={process.env.PUBLIC_URL+"/gg.jpg"} alt="Genevieve"/>
       </div>
+      {/* <img className="arrow" src={process.env.PUBLIC_URL+"/arrow.png"} alt="arrow pointing right"/> */}
+      <img className="spotlight" src="https://see.fontimg.com/api/renderfont4/Yz06j/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjQ0NCQzVBIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/cHJvamVjdCBzcG90bGlnaHQ/buljirya-personal-use.png" alt="Fancy fonts"/>
       <div className='bottom-container'>
         <Card className='card' sx={{ maxWidth: 345 }}>
           <CardMedia
