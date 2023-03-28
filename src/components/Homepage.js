@@ -99,7 +99,7 @@ const flip1 = () => {
         </Card>
 
         <Card className='card' sx={{ minWidth: 325, maxWidth: 345  }}>
-          <label className="card-label">RUBY ON RAILS · REACT</label>
+          <label className="card-label">RUBY · SINATRA · REACT</label>
           <CardMedia
             className='card-media'
             component="img"
