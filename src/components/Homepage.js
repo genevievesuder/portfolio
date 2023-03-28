@@ -3,9 +3,16 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button } from '@mui/material';
-
+import { useState } from 'react';
 
 const Homepage = () => {
+
+const [flip, setFlip] = useState(false)
+
+const flip1 = () => {
+  setFlip(current => !current)
+}
+
   return (
     <div className="homepage">
       <div className="top-container">
@@ -21,7 +28,8 @@ const Homepage = () => {
       <img className="circuit3" src={process.env.PUBLIC_URL+"/circuit1.png"} alt="circuit design"/>
       <img className="spotlight" src="https://see.fontimg.com/api/renderfont4/Yz06j/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjQ0NCQzVBIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/cHJvamVjdCBzcG90bGlnaHQ/buljirya-personal-use.png" alt="Fancy fonts"/>
       <div className='bottom-container'>
-        <Card className='card' sx={{ minWidth: 325, maxWidth: 345 }}>
+      { !flip ? (
+        <Card onClick={flip1} className='card' sx={{ minWidth: 325, maxWidth: 345 }}>
           <label className="card-label">RUBY ON RAILS · REACT</label>
           <CardMedia
             className='card-media'
@@ -42,6 +50,31 @@ const Homepage = () => {
           <Button size="small" color="success">Visit site</Button>|
           <Button size="small" color="success">github</Button>
         </Card>
+      ) : ( 
+        <>
+        <Card onClick={flip1} className='card' sx={{ minWidth: 325, maxWidth: 345 }}>
+        <label className="card-label">RUBY ON RAILS · REACT</label>
+        <CardMedia
+          className='card-media'
+          component="img"
+          height="350"
+          src={process.env.PUBLIC_URL+"/card1.jpg"}
+          // image="https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w="
+          alt="mystery at rosewood"
+        />
+        <CardContent className="card-content">
+          <Typography gutterBottom variant="h5" component="div">
+          <span className="card-content">Mystery at Rosewood</span>
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+          <span className="card-content">flipped!!!!</span>
+          </Typography>
+        </CardContent>
+        <Button size="small" color="success">Visit site</Button>|
+        <Button size="small" color="success">github</Button>
+      </Card>
+      </>
+      )}
 
         <Card className='card' sx={{ minWidth: 325, maxWidth: 345  }}>
           <label className="card-label">RUBY ON RAILS · REACT</label>
