@@ -14,8 +14,9 @@ const About = () => {
         </div>
       </div>
       <div className="bio2">
+      <img className="design" src={process.env.PUBLIC_URL+"/design.png"} alt="line"/>
         <img className="gg2" src={process.env.PUBLIC_URL+"/homer.jpg"} alt="gigi"/>
-        <img className="gg3" src={process.env.PUBLIC_URL+"/eugene.jpg"} alt="gigi"/>
+        <img className="gg3" src={process.env.PUBLIC_URL+"/cannon.jpg"} alt="gigi"/>
         <img className="gg4" src={process.env.PUBLIC_URL+"/ror.jpg"} alt="gigi"/>
         <br/>
         <img className="gg5" src={process.env.PUBLIC_URL+"/sylvie.jpg"} alt="gigi"/>
@@ -23,8 +24,10 @@ const About = () => {
         <br/>
         <img className="gg7" src={process.env.PUBLIC_URL+"/cabin.jpg"} alt="gigi"/>
         <img className="gg8" src={process.env.PUBLIC_URL+"/epcot.jpg"} alt="gigi"/>
-      </div>
+        <img className="gg9" src={process.env.PUBLIC_URL+"/koty.jpg"} alt="gigi"/>
+        <img className="gg10" src={process.env.PUBLIC_URL+"/renfaire.jpg"} alt="gigi"/>
       <img className="design" src={process.env.PUBLIC_URL+"/design.png"} alt="line"/>
+      </div>
     </div>
   )
 }
