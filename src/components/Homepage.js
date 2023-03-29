@@ -7,11 +7,6 @@ import { useState } from 'react';
 
 const Homepage = () => {
 
-const [flip, setFlip] = useState(false)
-
-const flip1 = () => {
-  setFlip(current => !current)
-}
 
   return (
     <div className="homepage">
@@ -27,9 +22,10 @@ const flip1 = () => {
       <img className="circuit2" src={process.env.PUBLIC_URL+"/circuit2.png"} alt="circuit design"/>
       <img className="circuit3" src={process.env.PUBLIC_URL+"/circuit1.png"} alt="circuit design"/>
       <img className="spotlight" src="https://see.fontimg.com/api/renderfont4/Yz06j/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjQ0NCQzVBIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/cHJvamVjdCBzcG90bGlnaHQ/buljirya-personal-use.png" alt="Fancy fonts"/>
+      
       <div className='bottom-container'>
-      { !flip ? (
-        <Card onClick={flip1} className='card' sx={{ minWidth: 325, maxWidth: 345 }}>
+    
+        <Card className='card' sx={{ minWidth: 325, maxWidth: 345 }}>
           <label className="card-label">RUBY ON RAILS · REACT</label>
           <CardMedia
             className='card-media'
@@ -48,33 +44,8 @@ const flip1 = () => {
             </Typography>
           </CardContent>
           <Button size="small" color="success">Visit site</Button>|
-          <Button size="small" color="success">github</Button>
+          <Button onClick={() => window.open('https://github.com/genevievesuder/rosewood_mystery_front', '_blank')} size="small" color="success">github</Button>
         </Card>
-      ) : ( 
-        <>
-        <Card onClick={flip1} className='card' sx={{ minWidth: 325, maxWidth: 345 }}>
-        <label className="card-label">RUBY ON RAILS · REACT</label>
-        <CardMedia
-          className='card-media'
-          component="img"
-          height="350"
-          src={process.env.PUBLIC_URL+"/card1.jpg"}
-          // image="https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w="
-          alt="mystery at rosewood"
-        />
-        <CardContent className="card-content">
-          <Typography gutterBottom variant="h5" component="div">
-          <span className="card-content">Mystery at Rosewood</span>
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-          <span className="card-content">flipped!!!!</span>
-          </Typography>
-        </CardContent>
-        <Button size="small" color="success">Visit site</Button>|
-        <Button size="small" color="success">github</Button>
-      </Card>
-      </>
-      )}
 
         <Card className='card' sx={{ minWidth: 325, maxWidth: 345  }}>
           <label className="card-label">RUBY ON RAILS · REACT</label>
@@ -95,7 +66,7 @@ const flip1 = () => {
             </Typography>
           </CardContent>
           <Button className="card-content" size="small" color="success">Visit site</Button>|
-          <Button size="small" color="success">github</Button>
+          <Button onClick={() => window.open('https://github.com/genevievesuder/ocular-2-frontend', '_blank')} size="small" color="success">github</Button>
         </Card>
 
         <Card className='card' sx={{ minWidth: 325, maxWidth: 345  }}>
@@ -117,7 +88,7 @@ const flip1 = () => {
             </Typography>
           </CardContent>
           <Button size="small" color="success">Visit site</Button>|
-          <Button size="small" color="success">github</Button>
+          <Button onClick={() => window.open('https://github.com/genevievesuder/phase-3-frontend', '_blank')} size="small" color="success">github</Button>
         </Card>
 
        
