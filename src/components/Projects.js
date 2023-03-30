@@ -1,8 +1,37 @@
 import React from 'react'
-
 const Projects = () => {
   return (
     <div className="projects-container">
+    <div className="portfolio-header">
+    <img className="portfolio-title" src="https://see.fontimg.com/api/renderfont4/3z37p/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjQTY3QzFDIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/UHJvamVjdCBQb3J0Zm9saW8/zt-yaglo-thin.png" alt="Retro fonts"/>
+    <img className="design" src={process.env.PUBLIC_URL+"/design.png"} alt="line"/>
+    </div>
+     
+
+      
+      <div className="project-card">
+        <div className="proj-header-2">
+        <span className='proj-name-2'>Ocular </span><span  className='proj-timeframe'>Timeframe: 2 weeks</span><br/>
+        </div>
+        <span className='proj-technologies'>RUBY ON RAILS // REACT // CUSTOM CSS</span><br/>
+        <div className="proj-main">
+        <div className='proj-left'>
+        <label>site main</label>
+        <img className="proj-img" src={process.env.PUBLIC_URL+"/oc1.png"} alt="ocular site screenshot"/>
+        <label>navbar</label>
+        <img className="proj-img" src={process.env.PUBLIC_URL+"/oc2.png"} alt="ocular site screenshot"/>
+        <label>customizable user profile</label>
+        <img className="proj-img" src={process.env.PUBLIC_URL+"/oc3.png"} alt="ocular site screenshot"/>
+        <label>public forum</label>
+        <img className="proj-img" src={process.env.PUBLIC_URL+"/oc4.png"} alt="ocular site screenshot"/>
+        </div>
+        <div className='proj-right'>
+          <h3>An optometry resource app + community forum</h3>
+          <p className='proj-desc'>project description</p>
+        </div>
+        </div>
+        <span className="visit">Visit github repo</span>
+      </div>
 
       <div className="project-card">
         <div className="proj-header-1">
@@ -31,36 +60,12 @@ const Projects = () => {
         <img className="proj-img" src={process.env.PUBLIC_URL+"/rw8.png"} alt="rosewood site screenshot"/>
         </div>
         <div className='proj-right'>
+          <h3>A point-and-click adventure game</h3>
           <p className='proj-desc'>project description</p>
         </div>
         </div>
         <span className="visit">Visit github repo</span>
       </div>
-
-      
-      <div className="project-card">
-        <div className="proj-header-2">
-        <span className='proj-name-2'>Ocular </span><span  className='proj-timeframe'>Timeframe: 2 weeks</span><br/>
-        </div>
-        <span className='proj-technologies'>RUBY ON RAILS // REACT // CUSTOM CSS</span><br/>
-        <div className="proj-main">
-        <div className='proj-left'>
-        <label>site main</label>
-        <img className="proj-img" src={process.env.PUBLIC_URL+"/oc1.png"} alt="ocular site screenshot"/>
-        <label>navbar</label>
-        <img className="proj-img" src={process.env.PUBLIC_URL+"/oc2.png"} alt="ocular site screenshot"/>
-        <label>customizable user profile</label>
-        <img className="proj-img" src={process.env.PUBLIC_URL+"/oc3.png"} alt="ocular site screenshot"/>
-        <label>public forum</label>
-        <img className="proj-img" src={process.env.PUBLIC_URL+"/oc4.png"} alt="ocular site screenshot"/>
-        </div>
-        <div className='proj-right'>
-          <p className='proj-desc'>project description</p>
-        </div>
-        </div>
-        <span className="visit">Visit github repo</span>
-      </div>
-
 
     </div>
   )

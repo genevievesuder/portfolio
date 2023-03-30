@@ -496,23 +496,33 @@ body {
   /* padding: 10px; */
 }
 
+.portfolio-header{
+  text-align: center;
+}
+
+.portfolio-title{
+  width: 400px;
+}
+
 .project-card{
   text-align: center;
-  border: 3px solid rgb(206, 206, 206);
+  border: 3px solid rgba(206, 206, 206, 0.326);
   border-radius: 6px;
   height: fit-content;
-  background-color: #d7dac391;
+  background-color: #e8ebd791;
   margin-top:7vh;
 }
 
 .proj-header-1{
   height: 40px;
   min-width: 100%;
-  background-color: #7e6565;
+  /* background-color: #6e0202; */
+  background-color: #bf8c72;
   text-align: center;
   vertical-align: center;
   margin-bottom: 15px; 
-  color: #410d0d;
+  color:#550e0e;
+  border-radius: 6px;
 }
 
 .proj-header-2{
@@ -523,6 +533,7 @@ body {
   vertical-align: center;
   margin-bottom: 15px;
   color: rgb(111, 114, 70);
+  border-radius: 6px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Berkshire+Swash&family=Caveat:wght@700&family=La+Belle+Aurore&family=Labrada&family=Libre+Baskerville:ital@1&family=Nanum+Myeongjo&family=Sono:wght@500&family=Special+Elite&family=Yuji+Syuku&display=swap');
