@@ -496,15 +496,26 @@ body {
   /* padding: 10px; */
 }
 
-.project-1{
+.project-card{
   text-align: center;
   border: 3px solid rgb(206, 206, 206);
   border-radius: 6px;
   height: fit-content;
   background-color: #d7dac391;
+  margin-top:7vh;
 }
 
-.proj-header{
+.proj-header-1{
+  height: 40px;
+  min-width: 100%;
+  background-color: #7e6565;
+  text-align: center;
+  vertical-align: center;
+  margin-bottom: 15px; 
+  color: #410d0d;
+}
+
+.proj-header-2{
   height: 40px;
   min-width: 100%;
   background-color: #aebf72;
@@ -514,7 +525,18 @@ body {
   color: rgb(111, 114, 70);
 }
 
-.proj-name{
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Berkshire+Swash&family=Caveat:wght@700&family=La+Belle+Aurore&family=Labrada&family=Libre+Baskerville:ital@1&family=Nanum+Myeongjo&family=Sono:wght@500&family=Special+Elite&family=Yuji+Syuku&display=swap');
+
+
+.proj-name-1{
+  font-family: 'Labrada', serif;
+  padding-left: 10px;
+  float: left;
+  font-size: 32px;
+  line-height: 1;
+}
+
+.proj-name-2{
   /* color:#333333; */
   font-family: 'Poller One', cursive;
   padding-left: 10px;
@@ -528,7 +550,8 @@ body {
   padding-right: 10px;
   font-size: 18px;
   float: right;
-  padding-top: 7px;
+  /* padding-top: 7px; */
+  line-height: 2;
 }
 
 .proj-technologies{
