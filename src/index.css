@@ -407,6 +407,8 @@ font-family: 'Work Sans', sans-serif; */
 }
 
 .tech-logos{
+  box-shadow: 0 0 5px 5px #3333338e;
+  border-radius: 6px;
   margin: 20px;
   display: inline-block;
   width: 100px;

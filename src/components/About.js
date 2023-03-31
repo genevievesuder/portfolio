@@ -1,4 +1,5 @@
 import React from 'react'
+import Tooltip from '@mui/material/Tooltip';
 
 const About = () => {
   return (
@@ -24,7 +25,39 @@ const About = () => {
           </p>
         </div>
         <div className="tech-logo-div">
-          <img src={process.env.PUBLIC_URL+"/cabin.jpg"} className="tech-logos" alt=""/>
+          <Tooltip title="React">
+          <img src={process.env.PUBLIC_URL+"/logos/react.JPG"} className="tech-logos" alt="react"/>
+          </Tooltip>
+          <Tooltip title="Ruby">
+          <img src={process.env.PUBLIC_URL+"/logos/ruby.JPG"} className="tech-logos" alt="ruby"/>
+          </Tooltip>
+          <Tooltip title="Rails">
+          <img src={process.env.PUBLIC_URL+"/logos/rails.JPG"} className="tech-logos" alt="rails"/>
+          </Tooltip>
+          <Tooltip title="JavaScript">
+          <img src={process.env.PUBLIC_URL+"/logos/js.JPG"} className="tech-logos" alt="javascript"/>
+          </Tooltip>
+          <Tooltip title="HTML">
+          <img src={process.env.PUBLIC_URL+"/logos/html.JPG"} className="tech-logos" alt="html"/>
+          </Tooltip>
+          <Tooltip title="CSS">
+          <img src={process.env.PUBLIC_URL+"/logos/css.JPG"} className="tech-logos" alt="css"/>
+          </Tooltip>
+          <Tooltip title="Sinatra">
+          <img src={process.env.PUBLIC_URL+"/logos/sinatra.JPG"} className="tech-logos" alt="sinatra"/>
+          </Tooltip>
+          <Tooltip title="SQlite">
+          <img src={process.env.PUBLIC_URL+"/logos/sqlite.JPG"} className="tech-logos" alt="sqlite"/>
+          </Tooltip>
+          <Tooltip title="Postgresql">
+          <img src={process.env.PUBLIC_URL+"/logos/postgres.JPG"} className="tech-logos" alt="postgres"/>
+          </Tooltip>
+          <Tooltip title="MUI">
+          <img src={process.env.PUBLIC_URL+"/logos/mui.JPG"} className="tech-logos" alt="mui"/>
+          </Tooltip>
+          <Tooltip title="Procreate">
+          <img src={process.env.PUBLIC_URL+"/logos/procreate.JPG"} className="tech-logos" alt="procreate"/>
+          </Tooltip>
         </div>
       </div>
       <div className="bio2">
