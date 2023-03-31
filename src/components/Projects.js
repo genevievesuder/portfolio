@@ -24,6 +24,8 @@ const Projects = () => {
         <img className="proj-img" src={process.env.PUBLIC_URL+"/oc3.png"} alt="ocular site screenshot"/>
         <label>public forum</label>
         <img className="proj-img" src={process.env.PUBLIC_URL+"/oc4.png"} alt="ocular site screenshot"/>
+        <label>dictionary</label>
+        <img className="proj-img" src={process.env.PUBLIC_URL+"/oc5.png"} alt="ocular site screenshot"/>
         </div>
         <div className='proj-right'>
           <h3>An optometry resource app + community forum</h3>
@@ -31,7 +33,7 @@ const Projects = () => {
           <p className='proj-desc'>project description</p>
         </div>
         </div>
-        <span className="visit">Visit github repo</span>
+        <span onClick={() => window.open('https://github.com/genevievesuder/ocular-2-frontend', '_blank')} className="visit">Visit github repo</span>
       </div>
       <br/>
       <div className="project-card">
@@ -68,7 +70,7 @@ const Projects = () => {
           <p className='proj-desc'>project description</p>
         </div>
         </div>
-        <span className="visit">Visit github repo</span>
+        <span onClick={() => window.open('https://github.com/genevievesuder/rosewood_mystery_front', '_blank')} className="visit">Visit github repo</span>
       </div>
 
     </div>
