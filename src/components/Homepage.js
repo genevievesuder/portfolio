@@ -3,10 +3,8 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button } from '@mui/material';
-import { useState } from 'react';
 
 const Homepage = () => {
-
 
   return (
     <div className="homepage">
@@ -32,7 +30,6 @@ const Homepage = () => {
             component="img"
             height="350"
             src={process.env.PUBLIC_URL+"/card1.jpg"}
-            // image="https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w="
             alt="mystery at rosewood"
           />
           <CardContent className="card-content">
@@ -43,7 +40,7 @@ const Homepage = () => {
             <span className="card-content">Point-and-click adventure game</span>
             </Typography>
           </CardContent>
-          <Button size="small" color="success">Visit site</Button>|
+          {/* <Button size="small" color="success">Site coming soon</Button>| */}
           <Button onClick={() => window.open('https://github.com/genevievesuder/rosewood_mystery_front', '_blank')} size="small" color="success">github</Button>
         </Card>
 
@@ -54,7 +51,6 @@ const Homepage = () => {
             component="img"
             height="350"
             src={process.env.PUBLIC_URL+"/card2.jpg"}
-            // image="https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w="
             alt="ocular"
           />
           <CardContent className="card-content">
@@ -65,7 +61,7 @@ const Homepage = () => {
             <span className="card-content">Educational optometry resource app + community forum</span>
             </Typography>
           </CardContent>
-          <Button className="card-content" size="small" color="success">Visit site</Button>|
+          {/* <Button className="card-content" size="small" color="success">Site coming soon</Button>| */}
           <Button onClick={() => window.open('https://github.com/genevievesuder/ocular-2-frontend', '_blank')} size="small" color="success">github</Button>
         </Card>
 
@@ -76,7 +72,6 @@ const Homepage = () => {
             component="img"
             height="350"
             src={process.env.PUBLIC_URL+"/card3.jpg"}
-            // image="https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w="
             alt="hotel azure"
           />
           <CardContent>
@@ -87,12 +82,9 @@ const Homepage = () => {
             <span className="card-content">Hotel website + reservation booking engine</span>
             </Typography>
           </CardContent>
-          <Button size="small" color="success">Visit site</Button>|
+          {/* <Button size="small" color="success">Site coming soon</Button>| */}
           <Button onClick={() => window.open('https://github.com/genevievesuder/phase-3-frontend', '_blank')} size="small" color="success">github</Button>
         </Card>
-
-       
-
       </div>
     </div>
   )

@@ -13,17 +13,20 @@ const About = () => {
         <div className="bio-div">
           <h3>About Me</h3>
           <p>
-            I am a full-stack developer and recent graduate from Flatiron School's software engineering immersive bootcamp. I am skilled in JavaScript, React, Ruby on Rails & Object Oriented Programming.<br/>
+          I am a full stack developer with a background in customer support, leadership, and management. I recently graduated from Flatiron School's software engineering immersive boot camp, which provided me with a solid foundation in Object Oriented Programming, React, JavaScript, Ruby, and Rails.
+            <br/><span className="dots">● ● ●</span>
+            <br/>
+            I pride myself on finding innovative solutions to complex problems, creating dynamic, high-quality apps, and writing clean and meaningful code.<br/>
             <span className="dots">● ● ●</span>
             <br/>
-            I pride myself on finding innovative solutions to complex problems, creating dynamic high-quality apps, and writing clean and meaningful code.<br/>
+            At my core, I am an artist and visionary thinker with a need to create. I love learning new skills and undertaking new challenges. Software engineering has provided me with a creative outlet that utilizes both sides of my mind, imaginative and logical. Learning to code has been a wonderful and rewarding challenge which I have gladly welcomed, and I look forward to increasing my knowledge and further developing my technical skillset.       
+            <br/>
             <span className="dots">● ● ●</span>
             <br/>
-            Software engineering has provided me a creative outlet which utilizes both sides of my mind, creative and logical.<br/>
-
-            I am currently seeking a remote or hybrid software engineering position in the greater Portland area.
+            <b>I am currently seeking a remote or hybrid software engineering position in the greater Portland area.</b>
           </p>
         </div>
+          <h2 className="technical-skills">//TECHNICAL SKILLS</h2>
         <div className="tech-logo-div">
           <Tooltip title="React">
           <img src={process.env.PUBLIC_URL+"/logos/react.JPG"} className="tech-logos" alt="react"/>
@@ -69,19 +72,11 @@ const About = () => {
         <div className="bio-div">
           <h3>Professional Experience</h3>
           <p>
-            Prior to delving into tech, I gathered over 9 years of experience in customer service and leadership with Nordstrom.
-            <br/>
-            <span className="dots">● ● ●</span>
-            <br/>
-             Starting my first job as a barista at the Nordstrom E-bar in 2010, I worked my way up the ladder to service experience manager. My experience at Nordstrom was truly invaluable, as I gained my confidence in professionalism. I developed strong skills in problem-solving, communication, leadership, and teamwork. I grew to be adaptable, forward-thinking, analytical, and bold.
-             <br/>
-            <span className="dots">● ● ●</span>
-            <br/>
-            I had success in many roles during my time with the company, including Full-line salesperson at beauty brands Bare Minerals and Clinique, counter manager at Bobbi Brown, service experience assistant manager, and Rack accessories/home/handbags/lingerie manager, and service experience manager.
-            <br/>
-            <span className="dots">● ● ●</span>
-            <br/>
-            I was also awarded the Nordstrom customer service all-star award, which is the most prestigious award given to any Nordstrom employee.
+          Before delving into tech, I gathered over nine years of experience in customer service and leadership with Nordstrom, where I built a solid foundation for my professional confidence.
+	       <br/>
+           <span className="dots">● ● ●</span>
+         <br/>
+            I grew to be adaptable, forward-thinking, analytical, and bold as I developed strong skills in problem-solving, communication, leadership, teaching & training, teamwork, and customer support, which awarded me the Nordstrom customer service all-star award, the most prestigious award given to any Nordstrom employee.
           </p>
         </div>
         <img className="gg5" src={process.env.PUBLIC_URL+"/sylvie.jpg"} alt="gigi"/>
@@ -94,12 +89,26 @@ const About = () => {
             <br/>
             <span className="dots">● ● ●</span>
             <br/>
-            Seeking more professional independence and desire to apply my creativity to my career, I operated various online shops and worked as a freelance artist. I have always been creatively driven, with a passion for art. If something interests me, I must discover everything I can about it. What others see as a challenge, I see as a welcoming opportunity to learn. I have tought myself digital art, animation, photography, film making, furniture making, painting, drawing, sewing, embroidery and cross stitch, sculpting, jewelry making, and so much more.
+            Seeking more professional independence and a desire to apply my creativity to my career, I operated various online shops and worked as a freelance artist and an art instructor at an elementary school in Hawaii, teaching grades 3 & 5. 
             <br/>
             <span className="dots">● ● ●</span>
             <br/>
-            Working independently gave me the flexibility to do more of what I love, travel, and spend more time with my friends and family. It also taught me preserverence, and to be more self-motivated and industrious. 
-          <br/>
+            Working independently gave me the flexibility to do more of what I love, travel, and spend more time with my friends and family, while also teaching me to be more industrious and self-motivated.
+          </p>    
+        </div>
+        <br/>
+        <div className="bio-div">
+        <h3>More about Genevieve</h3>
+          <p>
+            When I'm not keeping busy with coding, I'm most likely trying out new art techniques, hunting for vintage finds at thrift stores, or spending time with my wonderful family.
+            <br/>
+            <span className="dots">● ● ●</span>
+            <br/>
+            I was born and raised in Alaska, where I grew up four-wheeling, camping, fishing, and enjoying the land of the midnight sun--while not-so-much enjoying the seven months of brisk winter and darkness.
+            <br/>
+            <span className="dots">● ● ●</span>
+            <br/>
+            I love to travel, explore new places, and spend time in nature. I enjoy getting lost in a great book, a captivating tv show, or a fantastic videogame.
           </p>    
         </div>
       <img className="design" src={process.env.PUBLIC_URL+"/design.png"} alt="line"/>

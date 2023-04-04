@@ -1,8 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=DM+Mono&family=Shrikhand&family=Work+Sans&display=swap');
-/* font-family: 'Barlow', sans-serif;
-font-family: 'DM Mono', monospace;
-font-family: 'Shrikhand', cursive;
-font-family: 'Work Sans', sans-serif; */
+
+.not-found{
+  background-color: #8f8d8d51;
+  height: 60vh;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.5em;
+  border-radius: 6px;
+  color: #556202;
+}
+
+.gohome{
+  font-family: 'Work Sans', sans-serif;
+  border-radius: 3px;
+  font-size: 1em;
+  background-color: #acc500;
+  border: transparent;
+}
+
+.gohome:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.backToTop {
+  bottom: 25px;
+  right: 25px;
+  position: fixed;
+  font-size: 80px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 55px;
+  -webkit-border-radius: 55px;
+  -moz-border-radius: 55px;
+  -ms-border-radius: 55px;
+  -o-border-radius: 55px;
+  background: rgb(16, 12, 45);
+}
+.backToTop:hover {
+  background: #c98436;
+}
+
 .App{
   margin-left: auto;
   margin-right: auto;
@@ -12,8 +53,6 @@ font-family: 'Work Sans', sans-serif; */
 body {
   margin: 0;
   min-height: 100vh;
-  /* max-width: 95vw; */
-  /* overflow: hidden; */
 }
 
 /* Nav */
@@ -28,7 +67,6 @@ body {
   vertical-align:middle;
   top:0px;
   display:flex;
-  /* background-color: yellow; */
   margin-bottom: 5vh;
 }
 
@@ -65,12 +103,8 @@ body {
 
 .linkbar{
   white-space: nowrap;
-  /* max-height:60px; */
-  /* position: fixed; */
   bottom: 0;
-  /* min-width: 101vw; */
   max-width: 100%;
-  /* background-color: #FFBF9B; */
   text-align:center;
   vertical-align:middle;
   color: rgb(118, 118, 118);
@@ -88,6 +122,7 @@ body {
 
 .copyright {
   font-family: 'Barlow', sans-serif;
+  text-align: center;
 }
 
 /* Homepage */
@@ -138,7 +173,6 @@ body {
   min-height: 44vh;
   float:right;
   max-width: 300px;
-  /* border: 5px solid #acc500; */
   border-radius: 6px;
   box-shadow: 20px 16px #acc500;
 }
@@ -148,7 +182,6 @@ body {
   max-width: 300px;
   float: left;
   height: 20vh;
-  /* background-color: rgba(255, 210, 114, 0.756);   */
   padding: 40px;
   margin-top: 70px;
 }
@@ -156,7 +189,6 @@ body {
 .fsd{
   color: #acc500;
   font-size: 40px;
-  /* line-height: 3; */
   font-weight:bold;
 }
 
@@ -194,7 +226,6 @@ body {
   justify-content: center;
   flex-direction: row;
   display: flex;
-  /* height: 50vh; */
   width: 100%;
 }
 
@@ -238,7 +269,6 @@ body {
 .bio2{
   padding-bottom: 60px;
   text-align: center;
-  /* background-color: yellow; */
   background-image: linear-gradient(rgb(54, 52, 53), rgb(177, 202, 176), white);
 }
 
@@ -370,10 +400,6 @@ body {
   max-width: 200px;
   color:rgb(54, 52, 53)
 }
-/* font-family: 'Barlow', sans-serif;
-font-family: 'DM Mono', monospace;
-font-family: 'Shrikhand', cursive;
-font-family: 'Work Sans', sans-serif; */
 
 .bio-div{
   backdrop-filter: blur(3px);
@@ -385,11 +411,8 @@ font-family: 'Work Sans', sans-serif; */
   margin-top: 70px;
   padding: 15px;
   text-align: center;
-  /* width: 50%; */
   background-color: rgba(255, 255, 255, 0.534);
-  /* margin-bottom: 50px; */
   width: 70%;
-  /* height: 175px; */
 }
 
 .dots{
@@ -400,8 +423,16 @@ font-family: 'Work Sans', sans-serif; */
   letter-spacing: 5px;
 }
 
+.technical-skills{
+  margin-top: 50px;
+  font-family: 'Barlow', sans-serif;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
 .tech-logo-div{
-  margin: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
   background-color: rgba(255, 255, 255, 0.534);
   border-radius: 8px;
 }
@@ -436,13 +467,10 @@ font-family: 'Work Sans', sans-serif; */
 
 .design{
   max-width: 100%;
-  /* margin-top: 150px; */
 }
 
 .contact{
   min-height:100vh;
-  /* display: flex;
-  justify-content: center; */
   background-color: #efe7dd;
 }
 
@@ -510,17 +538,13 @@ font-family: 'Work Sans', sans-serif; */
 .design-con{
   margin-top: 15vh;
   width: 100%;
-  /* transform: rotate(180deg) */
 }
-
 
 /* Projects page */
 
 .projects-container{
   font-family: 'Work Sans', sans-serif;
   min-height: 100vh;
-  /* background-color: pink; */
-  /* padding: 10px; */
   text-align: center;
 }
 
@@ -540,12 +564,12 @@ font-family: 'Work Sans', sans-serif; */
   border-radius: 6px;
   height: fit-content;
   background-color: #efe7dd98;
+  margin-bottom: 50px;
 }
 
 .proj-header{
   height: 50px;
   min-width: 100%;
-  background-color: #797a72;
   text-align: center;
   vertical-align: center;
   margin-bottom: 15px; 
@@ -556,19 +580,16 @@ font-family: 'Work Sans', sans-serif; */
 
 .proj-name{
   font-size: 30px;
-  font-family: 'Unbounded', cursive;
   float:left;
   padding:5px;
   font-weight: bold;
+  color:#4a4949;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=DM+Mono&family=Shrikhand&family=Unbounded:wght@300&family=Work+Sans&display=swap');
 .proj-timeframe{
-  /* padding: 5px; */
   padding-right: 10px;
   font-size: 18px;
   float: right;
-  /* padding-top: 7px; */
   line-height: 2.5;
 }
 
@@ -581,13 +602,12 @@ font-family: 'Work Sans', sans-serif; */
 }
 
 .proj-main{
-  /* margin-top: 5px; */
-  /* border: 2px solid black; */
-  /* padding-top: 10px; */
   padding-bottom: 5px;
-  
 }
 
+.proj-features{
+  text-align: left;
+}
 
 .proj-left{
   height: 60vh;
@@ -596,7 +616,6 @@ font-family: 'Work Sans', sans-serif; */
   overflow-y: auto;
   overflow-x: hidden;
   background-color: rgba(255, 255, 255, 0.345);
-
 }
 
 .proj-img{
@@ -625,7 +644,7 @@ font-family: 'Work Sans', sans-serif; */
 }
 
 .proj-desc{
-  /* background-color: #acc500; */
+  padding-top: 10px;
 }
 
 .visit{

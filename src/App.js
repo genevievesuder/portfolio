@@ -8,8 +8,27 @@ import Links from './components/Links';
 import About from './components/About';
 import resume from './resume.pdf';
 import Contact from './components/Contact';
+import { useState, useEffect } from 'react';
 
 function App() {
+  const [scrollTop, setScrollTop] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 1000) {
+        setScrollTop(true);
+      } else {
+        setScrollTop(false);
+      }
+    });
+  }, []);
+  const bottomToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div>
       <Nav/>
@@ -22,6 +41,11 @@ function App() {
         <Route path="/projects" element={<Projects/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>
+      {scrollTop && (
+        <button onClick={bottomToTop} className="backToTop">
+          &#8593;
+        </button>
+      )}
     </div>
       <Links />
       </div>

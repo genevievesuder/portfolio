@@ -6,7 +6,6 @@ const navigate = useNavigate()
   return (
     <div className="contact">
       <div className="connect">
-        {/* <img className="con-1"src="https://see.fontimg.com/api/renderfont4/BWVKV/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjQ0NCQzVBIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/TGV0J3MgY29ubmVjdC4/minomu-black.png" alt="Sans Serif fonts"/> */}
       <img className="con-1" src={process.env.PUBLIC_URL+"/connect.png"} alt="let's connect"/>
       </div>
       <div className="connect-links">
