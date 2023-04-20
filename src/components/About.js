@@ -23,7 +23,7 @@ const About = () => {
             <br/>
             <span className="dots">● ● ●</span>
             <br/>
-            <b>I am currently seeking a remote or hybrid software engineering position in the greater Portland area.</b>
+            <span className="current"><b>I am currently seeking a software engineering position within the greater Seattle area.</b></span>
           </p>
         </div>
           <h2 className="technical-skills">//TECHNICAL SKILLS</h2>

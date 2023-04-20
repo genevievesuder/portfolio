@@ -275,7 +275,10 @@ body {
 
 .about{
   min-height: 100vh;
-  padding-top: vh;
+}
+
+.current{
+  font-size: 19px;
 }
 
 .gg{
