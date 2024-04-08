@@ -13,17 +13,16 @@ const About = () => {
         <div className="bio-div">
           <h3>About Me</h3>
           <p>
-          I am a full stack developer with a background in customer support, leadership, and management. I recently graduated from Flatiron School's software engineering immersive boot camp, which provided me with a solid foundation in Object Oriented Programming, React, JavaScript, Ruby, and Rails.
+          I am a full stack developer & graduate of Flatiron School with a background in customer relations, leadership, and management.
             <br/><span className="dots">● ● ●</span>
             <br/>
-            I pride myself on finding innovative solutions to complex problems, creating dynamic, high-quality apps, and writing clean and meaningful code.<br/>
-            <span className="dots">● ● ●</span>
-            <br/>
-            At my core, I am an artist and visionary thinker with a need to create. I love learning new skills and undertaking new challenges. Software engineering has provided me with a creative outlet that utilizes both sides of my mind, imaginative and logical. Learning to code has been a wonderful and rewarding challenge which I have gladly welcomed, and I look forward to increasing my knowledge and further developing my technical skillset.       
+            As a junior software developer with a unique blend of artistic abilities and people management skills, I bring a fresh perspective to the world of technology. With a passion for art and a penchant for problem solving, I approach software development as both a technical challenge and a creative endeavor.
             <br/>
             <span className="dots">● ● ●</span>
             <br/>
-            <span className="current"><b>I am currently seeking a software engineering position within the greater Seattle area.</b></span>
+            In my portfolio, you will find examples of my work that showcase both my technical proficiency and my creative approach to problem-solving.
+            <br/>
+            <br/>
           </p>
         </div>
           <h2 className="technical-skills">//TECHNICAL SKILLS</h2>
@@ -65,50 +64,29 @@ const About = () => {
       </div>
       <div className="bio2">
       <img className="design" src={process.env.PUBLIC_URL+"/design.png"} alt="line"/>
-        <img className="gg2" src={process.env.PUBLIC_URL+"/homer.jpg"} alt="gigi"/>
-        <img className="gg3" src={process.env.PUBLIC_URL+"/cannon.jpg"} alt="gigi"/>
-        <img className="gg4" src={process.env.PUBLIC_URL+"/ror.jpg"} alt="gigi"/>
         <br/>
         <div className="bio-div">
           <h3>Professional Experience</h3>
           <p>
-          Before delving into tech, I gathered over nine years of experience in customer service and leadership with Nordstrom, where I built a solid foundation for my professional confidence.
+            
+Before venturing into the tech industry, I accumulated over nine years of experience in customer service and leadership roles. 
 	       <br/>
            <span className="dots">● ● ●</span>
          <br/>
-            I grew to be adaptable, forward-thinking, analytical, and bold as I developed strong skills in problem-solving, communication, leadership, teaching & training, teamwork, and customer support, which awarded me the Nordstrom customer service all-star award, the most prestigious award given to any Nordstrom employee.
+         This tenure served as a cornerstone in shaping my professional confidence. Throughout my journey, I evolved into an adaptable, forward-thinking, analytical, and bold individual, honing a robust skill set in problem-solving, communication, leadership, teaching & training, teamwork, and customer support.
           </p>
         </div>
-        <img className="gg5" src={process.env.PUBLIC_URL+"/sylvie.jpg"} alt="gigi"/>
-        <img className="gg6" src={process.env.PUBLIC_URL+"/winter.jpg"} alt="gigi"/>
         <br/>
-        <div className="bio-div">
-        <h3>Following that</h3>
-          <p>
-            While there was opportunity for a great future within the company, I knew that retail was not my passion, and I began my search for a new career in 2019.
-            <br/>
-            <span className="dots">● ● ●</span>
-            <br/>
-            Seeking more professional independence and a desire to apply my creativity to my career, I operated various online shops and worked as a freelance artist and an art instructor at an elementary school in Hawaii, teaching grades 3 & 5. 
-            <br/>
-            <span className="dots">● ● ●</span>
-            <br/>
-            Working independently gave me the flexibility to do more of what I love, travel, and spend more time with my friends and family, while also teaching me to be more industrious and self-motivated.
-          </p>    
-        </div>
+        <img className="gg6" src={process.env.PUBLIC_URL+"/winter.jpg"} alt="gigi"/>
         <br/>
         <div className="bio-div">
         <h3>More about Genevieve</h3>
           <p>
-            When I'm not keeping busy with coding, I'm most likely trying out new art techniques, hunting for vintage finds at thrift stores, or spending time with my wonderful family.
-            <br/>
-            <span className="dots">● ● ●</span>
-            <br/>
             I was born and raised in Alaska, where I grew up four-wheeling, camping, fishing, and enjoying the land of the midnight sun--while not-so-much enjoying the seven months of brisk winter and darkness.
             <br/>
             <span className="dots">● ● ●</span>
             <br/>
-            I love to travel, explore new places, and spend time in nature. I enjoy getting lost in a great book, a captivating tv show, or a fantastic videogame.
+            In my spare time, I love getting lost in fantasy books, cozy video games, or my sketch book.
           </p>    
         </div>
       <img className="design" src={process.env.PUBLIC_URL+"/design.png"} alt="line"/>

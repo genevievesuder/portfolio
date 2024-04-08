@@ -11,18 +11,18 @@ const Homepage = () => {
       <div className="top-container">
         <div className="text">
           <span className="fsd">//SOFTWARE ENGINEER</span><br/><br/>
-          <span className="tagline">big picture visionary thinker with a passion for <b>innovative solutions</b></span><br/>
-          <p className="sub-tagline">alaskan ❄ // artist 🖌 // creative at ♥ // loves to code ⌨</p>
+          <span className="tagline">Bridging Artistry and Technology with Passionate Code.</span><br/>
+          {/* <p className="sub-tagline">alaskan ❄ // artist 🖌 // creative at ♥ // loves to code ⌨</p> */}
         </div>
        <img className="self" src={process.env.PUBLIC_URL+"/gg.jpg"} alt="Genevieve"/>
       </div>
       <img className="circuit1" src={process.env.PUBLIC_URL+"/circuit2.png"} alt="circuit design"/>
       <img className="circuit2" src={process.env.PUBLIC_URL+"/circuit2.png"} alt="circuit design"/>
       <img className="circuit3" src={process.env.PUBLIC_URL+"/circuit1.png"} alt="circuit design"/>
-      <img className="spotlight" src="https://see.fontimg.com/api/renderfont4/Yz06j/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjQ0NCQzVBIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/cHJvamVjdCBzcG90bGlnaHQ/buljirya-personal-use.png" alt="Fancy fonts"/>
+   
+      {/* <img className="spotlight" src="https://see.fontimg.com/api/renderfont4/Yz06j/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjQ0NCQzVBIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/cHJvamVjdCBzcG90bGlnaHQ/buljirya-personal-use.png" alt="Fancy fonts"/> */}
       
       <div className='bottom-container'>
-    
         <Card className='card' sx={{ minWidth: 325, maxWidth: 345 }}>
           <label className="card-label">RUBY ON RAILS · REACT</label>
           <CardMedia

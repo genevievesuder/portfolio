@@ -169,12 +169,13 @@ body {
 .self{
   resize: none;
   margin: auto;
-  min-width:24vw;
-  min-height: 44vh;
-  float:right;
+  min-width:20vw;
+  min-height: 40vh;
+  /* float:right; */
   max-width: 300px;
   border-radius: 6px;
   box-shadow: 20px 16px #acc500;
+
 }
 
 .text{
@@ -194,6 +195,7 @@ body {
 
 .tagline{
   font-size: 30px;
+  text-align: center;
 }
 
 .sub-tagline{
@@ -202,11 +204,6 @@ body {
 }
 
 .spotlight{
-  top: 110%;
-  left: 18%;
-  transform: translate(-50%, -50%) rotate(-10deg);
-  position: absolute;
-  z-index: 3000;
   max-width: 250px;
 }
 
@@ -221,7 +218,7 @@ body {
 
 
 .bottom-container{
-  margin-top: 70vh;
+  /* margin-top: 70vh; */
   padding: 10px;
   justify-content: center;
   flex-direction: row;
@@ -328,7 +325,7 @@ body {
 }
 
 .gg6{
-  margin-left: 50px;
+  margin-top: 50px;
   width: 450px;
   height: 320px;
   border: 20px solid white;
